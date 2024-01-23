@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #current-day {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .time-block {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .past {
+    background-color: #f8d7da; /* Red for past */
+  }
+  
+  .present {
+    background-color: #d4edda; /* Green for present */
+  }
+  
+  .future {
+    background-color: #cce5ff; /* Blue for future */
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .save-btn {
+    margin-left: 10px;
+  }
+  
